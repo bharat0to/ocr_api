@@ -7,6 +7,8 @@ from utils import get_file_name
 
 
 UPLOAD_FOLDER = os.path.realpath('uploads')
+if not os.path.exists(UPLOAD_FOLDER):
+    os.mkdir(UPLOAD_FOLDER)
 
 app = Flask(__name__)
 cors = CORS(app)
