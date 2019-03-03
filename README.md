@@ -16,3 +16,5 @@ Log every request to csv so that it easy import with pandas and visualize. Let t
 - Tests for performance.
   - Check number of parallel connections supported
   - Check number of requests per minute
+
+deployed at [zerocr.herokuapp.com](https://zerocr.herokuapp.com)
